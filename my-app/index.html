@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- <link rel="icon" type="image/svg+xml" href="/vite.svg" /> -->
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../my-app/index.css">
     <title>Vite + React</title>
@@ -11,28 +11,40 @@
     <div id="root"></div>
     <!-- <script type="module" src="/src/main.jsx"></script> -->
 
-    <div id="header">
-      <div class="logo" ><img src="../my-app/img/Logo.png" alt="">
-      <div class="search"><input type="text" name="" id=""></div>
-      <ul class="menu">
-        <li><a href="">What to cook</a></li>
-        <li><a href="">Recipes</a></li>
-        <li><a href="">Ingredients</a></li>
-        <li><a href="">Occasions</a></li>
-        <li><a href="">About Us</a></li>
-        <li><a href="" class="RcpBox">Your Recipes Box</a></li>
-        <!-- <li></li> -->
-      </ul>
+    <header id="header">
+      <div class="logo">
+        <img src="../my-app/img/Logo.png" alt="Logo" />
+      </div>
+      <div class="search">
+        <input type="text" id="search-input" placeholder="Search for recipes..." />
+      </div>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">What to cook</a></li>
+          <li><a href="#">Recipes</a></li>
+          <li><a href="#">Ingredients</a></li>
+          <li><a href="#">Occasions</a></li>
+          <li><a href="#">About Us</a></li>
+          <li></li>
 
-      
+        </ul>
+        <div class="RcpBox"><img src="../my-app/img/Archive check.png" alt=""><a href="#" class="RcpBox">Your Recipes Box</a></div>
+        <div class="avt"><img src="../my-app/img/Avatar 35.png" alt="" class=""></div>
+      </nav>
+    </header>
 
-    </div>
-    <div id="main">
-      <div></div>
-      <div></div>
-    </div>
-    <div id="footer">
+    <main id="main">
+      <section id="filters">
+        <img src="../my-app/img/List 2.png" alt="Filters" />
+        <span>Filters</span>
+      </section>
+      <section id="content">
+        
+      </section>
+    </main>
 
-    </div>
+    <footer id="footer">
+   
+    </footer>
   </body>
 </html>
